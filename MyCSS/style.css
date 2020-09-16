@@ -1,5 +1,8 @@
-h1 {
+body {
   color: skyblue;
-  font-size: 12px;
-  /*color: red;*/
+  border: 1px solid pink;
+}
+
+h1 {
+  border: inherit; /*継承させる*/
 }
