@@ -1,7 +1,7 @@
-#title {
-    color: pink;
-}
-
-* {
-    font-size: 12px;
+/* [href^="https"] 前方一致 */
+/* [href$="dotinstall"] 後方一致 */
+/* [href*="com"] 部分一致 */
+ {
+    font-weight: bold;
+    color: red;
 }
