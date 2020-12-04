@@ -1,23 +1,11 @@
-/* main > :nth-child(3) {
-    background: pink;
-} */
-/* 
-main > :nth-child(3n) {
+/* main > h2:nth-of-type(even) {
     background: pink;
 } */
 
-/* main > :nth-child(odd) {
+main > h2:first-of-type {
     background: pink;
 }
 
-main > :nth-child(even) {
-    background: skyblue;
-} */
-
-main > :first-child {
-    background: pink;
-}
-
-main > :last-child {
+main > h2:last-of-type {
     background: skyblue;
 }
