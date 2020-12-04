@@ -1,7 +1,19 @@
-/* [href^="https"] 前方一致 */
-/* [href$="dotinstall"] 後方一致 */
-/* [href*="com"] 部分一致 */
- {
-    font-weight: bold;
-    color: red;
+#about > #main {
+    color: gray;
+}
+
+h1 {
+    color:red !important;
+}
+
+h1#main.box {
+    color: yellow !important;
+}
+
+section > #main.title {
+    color: blue !important;
+}
+
+section#about > h1 {
+    color: pink !important;
 }
