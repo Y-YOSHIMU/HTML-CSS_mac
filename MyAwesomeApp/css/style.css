@@ -128,4 +128,9 @@ footer {
     header .pic {
         width: 40%;
     }
+
+    .features .container {
+        width: 800px;
+        margin: 0 auto;
+    }
 }
