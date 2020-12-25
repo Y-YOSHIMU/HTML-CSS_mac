@@ -133,4 +133,21 @@ footer {
         width: 800px;
         margin: 0 auto;
     }
+
+    .features section {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .features section:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+
+    .features .pic {
+        width: 50%;
+    }
+
+    .features .info {
+        width: calc(50% - 32px);
+    }
 }
