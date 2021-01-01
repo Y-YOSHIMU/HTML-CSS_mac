@@ -2,6 +2,18 @@ body {
     padding: 40px;
 }
 
+.like {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: pink;
+}
+
+.like [type="checkbox"] {
+    display: none;
+}
+
 .heart {
     font-size: 40px;
     color: #e4e4e4;
@@ -28,6 +40,7 @@ body {
 }
 
 .ripple {
+    position: absolute;
     width: 85px;
     height: 85px;
     background: red;
